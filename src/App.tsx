@@ -7,6 +7,8 @@ function App() {
     <>
       <Header />
       <Hero />
+
+      <div style={{height: 100000000}}></div>
     </>
   );
 }
