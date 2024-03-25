@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 64px;
+}
+.header__bg {
+    background-color: #19050A;
+}
+
+.header__logo {
+    color: white;
+}
+.header__nav {
+    display: flex;
+    gap: 64px;
+}
+.header__nav-item {
+    color: white;
+}

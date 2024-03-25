@@ -1,12 +1,10 @@
-import { Button } from "./components/Button";
+import { Header } from "./components/Header";
+import "./App.css"
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
-      <Button type="danger" leftIcon={<div>Left</div>} rightIcon={<div>Right</div>}>
-        Click
-      </Button>
+      <Header />
     </>
   );
 }
