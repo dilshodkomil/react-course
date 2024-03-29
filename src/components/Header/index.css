@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 64px;
+}
+.header__fixed {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.header__bg {
+    background: rgba(25, 5, 10, 1);
+}
+
+.header__logo {
+    color: rgba(242, 242, 242, 1);
+    font-family: Vollkorn;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.43px;
+    text-align: left;
+}
+
+.header__nav {
+    display: flex;
+    gap: 64px;
+}
+
+.header__nav-item {
+    color: white;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.18px;
+    text-align: left;
+    text-decoration: none;
+}

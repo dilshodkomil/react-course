@@ -1,12 +1,14 @@
-import { Button } from "./components/Button";
+import { Header } from "./components/Header";
+import "./App.css"
+import { Hero } from "./components/Hero";
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
-      <Button type="danger" leftIcon={<div>Left</div>} rightIcon={<div>Right</div>}>
-        Click
-      </Button>
+      <Header />
+      <Hero />
+
+      <div style={{height: 100000000}}></div>
     </>
   );
 }
